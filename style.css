@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+#caption{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+    margin-left: 100px;
+    padding-right: 100px;
+}
+
+
+#caption img{
+    width: 200px; 
+    
+}
+
+.mailchimp-form{ 
+    display: inline-block; 
+    width: 30%;
+    margin-top: 50px;
+}
+
+
+#title-form h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Lora';
+}
+
+#title-form p a{
+    text-decoration: none;
+    color:#007c89;
+    line-height: 20px;
+}
+
+#text-form{
+    display: inline-block;
+
+}
+
+form{
+    margin-top: 20px;
+}
+
+.conditions ul{
+    display: inline-block;
+    vertical-align: top;
+    list-style-position: inside;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+
+
+.conditions ul li::marker{
+    color: #007c89;
+}
+
+.form label{
+    padding-bottom: 10px;
+}
+
+.form label p{
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.form label input {
+    padding: 5px;
+    width: 95%;
+}
+
+.form label #email, #username, #psw{
+    border:solid 1px grey;
+    border-radius: 5px;
+}
+
+.form label #email:focus, #username:focus, #psw:active{
+    background-color: #bebcba;
+}
+
+
+#submission{
+    display: inline-block;
+    width: 100%;
+}
+
+#submission label{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+
+}
+
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+    color: #bebcba;
+    border: 2px solid #bebcba;
+    border-radius: 5px;
+    font-family: 'open Sans';
+    margin-right: 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+input[type=submit]:hover{
+    color: #fff;
+    background-color: #007c89;
+    transition: 0.3s;
+}
+
+
+input[type=checkbox]{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: text-top;
+}
+
+#check{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.policy p{
+    margin-top: 20px;
+    line-height: 140%;
+}
+
+.policy a{
+    color: #007c89;
+}

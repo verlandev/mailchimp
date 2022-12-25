@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    
+        <div id="caption">
+            <img src="mailchimp.png" alt="">
+        </div>
+
+        <section class="mailchimp-form">
+        <div id="text-form">
+            <div id="title-form">
+                    <h1>Welcome to Mailchimp</h1>
+                    <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Marketing Platform. Already have an account. <a href="#">Log in</a></p>
+            </div>
+        </div>
+            
+            <form class="form">
+                    <label for="email">
+                        <p>Email</p>
+                        <input type="email" name="email" id="email" placeholder="Escribe tu mejor email">
+                    </label>
+        
+                    <label for="usename">
+                        <p>Username</p>
+                        <input type="text" name="username" id="username" placeholder="¿Cómo quieres que te llamemos?">
+                    </label>
+        
+                    <label for="password">
+                        <p>Password</p>
+                        <input type="password" name="password" id="psw" placeholder="No me pongas 123456789, por favor" pattern="[a-z][A-Z]{0-9}{8}_|[^\w]">
+                    </label>
+        
+                    <div class="conditions">
+                        <ul>
+                            <li>One lower character</li>
+                            <li>One uppercase character</li>
+                            <li>One number</li>
+                        </ul>
+                        <ul>    
+                            <li>One special character</li>
+                            <li>8 character minimun</li>
+                        </ul>
+                    </div>
+        
+                    
+                    <div id="submission">
+                        <input type="submit" value="Sign up"></input>
+                        <input type="checkbox" id="check">
+                        <label for="checkbox">I don't want to receive emails about new Mailchimp products, best practices, or special offers.</label>
+                    </div>
+                    
+                    <div class="policy">
+                        <p>By clicking the <em>"Sign up"</em> button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
+                    </div>
+            </form>
+
+        </section>
+
+</body>
+</html>
